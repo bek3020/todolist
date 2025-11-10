@@ -4,6 +4,8 @@ import Banner from './components/Banner'
   import CategoryTabs from "./components/CategoryTabs";
 import CarList from "./components/CarList";
 import About from './components/About';
+import Logo from './components/Logo';
+import Alex from './components/Alex';
   const App = () => {
     const [dark ,setDark] = useState(false)
 
@@ -30,6 +32,7 @@ import About from './components/About';
         </section>
         
          <About dark= {dark} />
+        <Logo dark={dark} />
       </div>
     );
   }
