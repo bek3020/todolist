@@ -1,6 +1,6 @@
 import React from 'react'
 import CarCard from './CarCard'
-import { cars } from '../../cars'
+import { cars } from '../cars'
 
 const CarList = ({ category }) => {
   const filtered = cars.filter((car) => car.category === category);
