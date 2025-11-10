@@ -12,7 +12,6 @@ import About from './components/About';
       <div className={dark ? 'dark bg-gray-900 text-gray-100 min-h-screen text-grey-300' : 'bg-white min-h-screen text-gray-800'}>
         <Header dark={dark} setDark={setDark} />
         <Banner dark={dark} />
-        <About dark= {dark} />
         <section className='"px-6 py-12 max-w-[1200px] mx-auto'>
           <h1 className='text-3xl font-bold text-center mb-3'>
             Choose the car of your dreams
@@ -29,6 +28,8 @@ import About from './components/About';
             </button>
           </div>
         </section>
+        
+         <About dark= {dark} />
       </div>
     );
   }
