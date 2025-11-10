@@ -62,8 +62,8 @@ export default function TestimonialSlider() {
           </div>
         </div>
         <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex space-x-4">
-          <button onClick={prevSlide} className="bg-white rounded-full p-2 hover:bg-gray-100">‹</button>
-          <button onClick={nextSlide} className="bg-white rounded-full p-2 hover:bg-gray-100">›</button>
+          <button onClick={prevSlide} className="bg-white rounded-full p-2 hover:bg-gray-100"></button>
+          <button onClick={nextSlide} className="bg-white rounded-full p-2 hover:bg-gray-100"></button>
         </div>
       </div>
     </div>
